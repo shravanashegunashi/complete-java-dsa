@@ -1,1 +1,33 @@
+public class Conditions {
+		public static void main(String[] args) {
+			//Syntax
+			/* 
+			  if(boolean expression T or F){
+			       //body
+			  } else {
+			       //do this
+			  }
+			 */
+			
+			int sal=25400;
+//			if(sal>20000) {
+//				sal+=600;     //sal+sal+600;
+//			}else {
+//				sal-=400;
+//			}
+//			System.out.println(sal);
+			
+			//Multiple if-else statements
+			if(sal>10000) {
+				sal+=5000;     //sal=30400
+			}
+			else if(sal>20000){
+				sal+=10000;    
+			}else {
+				sal+=1000;
+			}
+			System.out.println(sal);
+		}
+
+	}
 
